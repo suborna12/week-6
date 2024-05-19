@@ -23,7 +23,7 @@ void ss(){
  ll n;
  cin>>n;
  ll f=0;
- for(ll i=1;i<=n;i++){
+ for(ll i=1;i*i*i<=n;i++){
     if(st.count(n-i*i*i)){
         f=1;
         break;
